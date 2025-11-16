@@ -22,7 +22,7 @@
 │  ├─ 
 │  ├─ 
 │  └─ 
-└─ requirements.txt（或 requirements/）
+
 ```
 
 
