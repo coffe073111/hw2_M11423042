@@ -18,10 +18,10 @@
 │  ├─ RMSE.png
 │  ├─ MAPE.png
 ├─ 資料夾(實驗二)/
-   ├─ 
-   ├─ 
-   ├─ 
-   └─ 
+   ├─ shap_bar.pn
+   ├─ xgboost_reduced_only.png
+   ├─ xgboost_full_only.png
+   └─ hw2_finalverse.ipynb
 
 ```
 
