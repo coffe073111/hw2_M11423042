@@ -10,13 +10,13 @@
 │  ├─ adult_data_duplicate.ipynb
 │  ├─ adult_test_duplicates.ipynb
 │  └─ adult_data_missing_value.ipynb
-├─ 資料夾(實驗二)/
-│  ├─ CM_C45.png  CM_C50.png  CM_CART.png  CM_ID3.png
-│  ├─ Tree_C45.png  Tree_C50.png  Tree_CART.png  Tree_ID3.png
-│  ├─ dm_decision_tree_ID3.C4.5.CART.ipynb
-│  ├─ dm_decision_tree_C5.0.ipynb
-│  ├─ Test_Predictions_ID3.C4.5.CART.xlsx
-│  └─ Test_Predictions_C5.0.xlsx
+├─ 資料夾(實驗一)/
+│  ├─ KNN_SVR_RandomForest_XGBoost.ipynb
+│  ├─ Train_Time.png
+│  ├─ Predict_Time.png
+│  ├─ R2.png
+│  ├─ RMSE.png
+│  ├─ MAPE.png
 ├─ 資料夾(實驗三)/
 │  ├─ Large_tree_d10_l64.png
 │  ├─ Medium_tree_d6_l16.png
