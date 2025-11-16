@@ -18,10 +18,10 @@
 │  ├─ RMSE.png
 │  ├─ MAPE.png
 ├─ 資料夾(實驗二)/
-│  ├─ 
-│  ├─ 
-│  ├─ 
-│  └─ 
+   ├─ 
+   ├─ 
+   ├─ 
+   └─ 
 
 ```
 
@@ -60,18 +60,16 @@
 
 ###  實驗二
 
-共四個檔案，探討 **CART 決策樹** 之 **後剪枝 (Cost-Complexity Pruning)** 與模型複雜度。
+共四個檔案，探討 **XGBoost** 、 **K-fold cross validation** 、 **SHAP**的實際應用
 
 | 檔名 | 功能說明 |
 |------|-----------|
-| **dm_post_pruning_decision_tree_finalver.ipynb** | 透過 **Grid Search** 比較不同樹深度與葉節點數的組合，並以 **Elbow Method** 尋找模型複雜度與準確率的平衡點。選出三組代表模型（Small、Medium、Large），最後於測試集進行評估。 |
-| **Small_tree_d3_l16.png** | 小型模型（樹深度=3，葉節點=16）之決策樹圖。 |
-| **Medium_tree_d6_l16.png** | 中型模型（樹深度=6，葉節點=16）之決策樹圖。 |
-| **Large_tree_d10_l64.png** | 大型模型（樹深度=10，葉節點=64）之決策樹圖。 |
+| **shap_bar.png** | 各特徵對模型預測影響力的平均大小 |
+| **xgboost_reduced_only.png** | 刪除三個特徵後的預測績效 |
+| **xgboost_full_only.png** | 使用全部 13 個特徵時的預測績效 |
+| **hw2_finalverse.ipynb** | 使用 XGBoost 演算法及 K-fold cross validation預測資料集，以及SHAP 計算特徵重要性，進行特徵欄位之重要性排名 |
+
 
 ---
 
-###  環境設定
-
-  ● requirements：環境設定。
 
