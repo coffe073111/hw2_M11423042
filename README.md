@@ -6,7 +6,7 @@
 
 ```text
 .
-├─ 資料夾(資料前處理)/
+├─ 資料夾(資料前處理一)/
 │  ├─ adult_data_duplicate.ipynb
 │  ├─ adult_test_duplicates.ipynb
 │  └─ adult_data_missing_value.ipynb
@@ -17,11 +17,11 @@
 │  ├─ R2.png
 │  ├─ RMSE.png
 │  ├─ MAPE.png
-├─ 資料夾(實驗三)/
-│  ├─ Large_tree_d10_l64.png
-│  ├─ Medium_tree_d6_l16.png
-│  ├─ Small_tree_d3_l16.png
-│  └─ dm_post_pruning_decision_tree_finalver.ipynb
+├─ 資料夾(實驗二)/
+│  ├─ 
+│  ├─ 
+│  ├─ 
+│  └─ 
 └─ requirements.txt（或 requirements/）
 ```
 
@@ -44,24 +44,17 @@
 
 ###  實驗一
 
-共十二個檔案，包含各演算法的決策樹圖、混淆矩陣圖與預測結果。
+共六個檔案，包含各演算法的預測績效以及所需要的計算時間。
 
 ####  圖像檔案
 | 類別 | 檔名 | 說明 |
 |------|------|------|
-| 混淆矩陣圖 | `CM_ID3.png`, `CM_C45.png`, `CM_C50.png`, `CM_CART.png` | 各演算法在測試集的分類結果視覺化。 |
-| 決策樹圖 | `Tree_ID3.png`, `Tree_C45.png`, `Tree_C50.png`, `Tree_CART.png` | 各模型的三層決策樹結構。 |
-
-> 🔸 `CM_` 開頭 → 混淆矩陣圖  
-> 🔸 `Tree_` 開頭 → 三層決策樹圖  
+|比較長條圖| `Train_Time.png`, `Predict_Time.png`, `R2.png`, `RMSE.png`, `MAPE.png` | 各演算法的預測績效比較。 |
 
 ####  程式與結果檔案
 | 檔名 | 功能說明 |
 |------|-----------|
-| **dm_decision_tree_ID3.C4.5.CART.ipynb** | 使用前處理後資料集訓練並測試 **ID3、C4.5、CART** 決策樹分類器。 |
-| **dm_decision_tree_C5.0.ipynb** | 使用前處理後資料集訓練並測試 **C5.0** 決策樹分類器。 |
-| **Test_Predictions_ID3.C4.5.CART.xlsx** | 彙整 ID3、C4.5、CART 模型的測試集預測結果。 |
-| **Test_Predictions_C5.0.xlsx** | 彙整 C5.0 模型的測試集預測結果。 |
+| **KNN_SVR_RandomForest_XGBoost.ipynb** | 使用前處理後資料集訓練並測試 *KNN、SVR、RandomForest、XGBoostT** 。 |
 
 ---
 
