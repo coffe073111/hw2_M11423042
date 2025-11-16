@@ -21,7 +21,7 @@
    ├─ shap_bar.pn
    ├─ xgboost_reduced_only.png
    ├─ xgboost_full_only.png
-   └─ hw2_finalverse.ipynb
+   └─ hw2_2.1+2.2.ipynb
 
 ```
 
@@ -67,7 +67,7 @@
 | **shap_bar.png** | 各特徵對模型預測影響力的平均大小 |
 | **xgboost_reduced_only.png** | 刪除三個特徵後的預測績效 |
 | **xgboost_full_only.png** | 使用全部 13 個特徵時的預測績效 |
-| **hw2_finalverse.ipynb** | 使用 XGBoost 演算法及 K-fold cross validation預測資料集，以及SHAP 計算特徵重要性，進行特徵欄位之重要性排名 |
+| **hw2_2.1+2.2.ipynb** | 使用 XGBoost 演算法及 K-fold cross validation預測資料集，以及SHAP 計算特徵重要性，進行特徵欄位之重要性排名 |
 
 
 ---
